@@ -1,0 +1,2 @@
+C:\Users\Colin\source\repos\SpaceShooter3\x64\Debug\SpaceShooter3.exe.lastcodeanalysissucceeded
+C:\Users\Colin\source\repos\SpaceShooter3\SpaceShooter3\x64\Debug\NativeCodeAnalysis.read.1.tlog

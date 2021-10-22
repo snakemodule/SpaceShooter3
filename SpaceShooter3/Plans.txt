@@ -1,0 +1,5 @@
+
+TODO: in register archetype, use the signature of the system to walk through the signature of the archetype
+they are both sorted and matching. we can look through Asig until we find them in order
+but how to match them to compoennt arrays?
+maybe pre sort the arrays in a std::array collection just líke in make_signature

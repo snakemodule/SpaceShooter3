@@ -1,0 +1,33 @@
+﻿  my_pch.cpp
+  Archetype.cpp
+  component_array.cpp
+  despawn_enemy_system.cpp
+  draw.cpp
+  enemy_attack_system.cpp
+  enemy_collision_system.cpp
+  enemy_movement_system.cpp
+  Entity.cpp
+  move_system.cpp
+  Manager.cpp
+  player_attack_system.cpp
+  player_collision_system.cpp
+  player_movement_system.cpp
+  Record.cpp
+  SDLWindow.cpp
+  signature.cpp
+  SpaceShooter3.cpp
+  space_hash.cpp
+  space_partition_enemy_bullets_system.cpp
+  space_partition_player_bullets_system.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  Compiling...
+  spawn_system.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  SpaceShooter3.vcxproj -> C:\Users\Colin\source\repos\SpaceShooter3\x64\Debug\SpaceShooter3.exe
+D:\Other\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include\SDL_stdinc.h(490): warning C26819: Unannotated fallthrough between switch labels (es.78).
+D:\Other\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include\SDL_stdinc.h(491): warning C26819: Unannotated fallthrough between switch labels (es.78).
+D:\Other\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include\SDL_stdinc.h(492): warning C26819: Unannotated fallthrough between switch labels (es.78).
+D:\Other\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include\SDL_stdinc.h(493): warning C26819: Unannotated fallthrough between switch labels (es.78).
+D:\Other\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include\SDL_rect.h(102): warning C26812: The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).

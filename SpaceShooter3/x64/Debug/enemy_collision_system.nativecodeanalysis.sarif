@@ -1,0 +1,774 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29910.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0006B1C0 -allChunksReserved -il C:\\Users\\Colin\\AppData\\Local\\Temp\\_CL_589fc9fbast -typedil -f enemy_collision_system.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829910 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I D:\\Other\\libraries\\SDL2_image-devel-2.0.5-VC\\SDL2_image-2.0.5\\include -I D:\\Other\\SDL2-devel-2.0.16-VC\\SDL2-2.0.16\\include -I C:\\Users\\Colin\\Documents\\Visual Studio 2017\\Libraries\\glfw-3.3.bin.WIN64\\include -I C:\\VulkanSDK\\1.2.189.2\\Include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -Yumy_pch.h -Fpx64\\Debug\\SpaceShooter3.pch -Fox64\\Debug\\enemy_collision_system.obj -Fdx64\\Debug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\Colin\\source\\repos\\SpaceShooter3\\SpaceShooter3 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/space_partition_player_bullets_system.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "6bbc4fb65d26cd580af15cb3ac854b3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/my_pch.h"
+          },
+          "hashes": {
+            "md5": "6b792209d23825158160de4b9d58cf58"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl.h"
+          },
+          "hashes": {
+            "md5": "1cde4efcb34c523759e33ebf4473adc3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_main.h"
+          },
+          "hashes": {
+            "md5": "b88bc709072469bf02d27e556ac1fabb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "md5": "f4c5d7bcaee48a9cbe1eb8bdf5160141"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_config.h"
+          },
+          "hashes": {
+            "md5": "d92b2487a04fac36c1d442198cd245fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_platform.h"
+          },
+          "hashes": {
+            "md5": "3b7f94169ae8344fab5edb92b89b3854"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/begin_code.h"
+          },
+          "hashes": {
+            "md5": "8e52ebea784a11dd64caa2d1ed5064bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/close_code.h"
+          },
+          "hashes": {
+            "md5": "7b6b8e4df66cbbd5d2b3b84d99fd57bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_assert.h"
+          },
+          "hashes": {
+            "md5": "6436e364b304693dd353def40aedf160"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "md5": "9d3e1e298e9effd381cfe8b761a56d7e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_audio.h"
+          },
+          "hashes": {
+            "md5": "a148ae990e96319ba873468d010fa261"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_error.h"
+          },
+          "hashes": {
+            "md5": "a22e78171081a58bda2e5613f47b1425"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_endian.h"
+          },
+          "hashes": {
+            "md5": "f640f3b3bcf363959c1c4dc13a68103d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "md5": "6945688f687051543d67d42137a79ab5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_thread.h"
+          },
+          "hashes": {
+            "md5": "1b19f9d0eecb167716d46cd0adf31b16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "md5": "d22f05585e4657bda3ad754f9c9d9969"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "md5": "8c920df7ea01ddb9d68d635295c1cc13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "md5": "992d3b1c34853e331d4bfa622fa2dd4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_events.h"
+          },
+          "hashes": {
+            "md5": "ce3ca58d8a1eb003fbb0887e81128559"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_video.h"
+          },
+          "hashes": {
+            "md5": "b9bd7a91a755766d944303450ed70432"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "md5": "c8f026513c4454a8edd827a9b88aec5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_rect.h"
+          },
+          "hashes": {
+            "md5": "afd186f969d6d95b341257f88ca5f104"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_surface.h"
+          },
+          "hashes": {
+            "md5": "cd3b84a59db66d0bc0c5ca03f7e384aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "md5": "aa8afe49f152ab8f1afc6d99f794b28e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "md5": "cc72701da154376b8e102a0ff3617621"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "md5": "b20bf46b01506667297eb8b37c47bc2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "md5": "e99fada689e4cf90b81cc537da5083f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "md5": "3dd95fe6c2eaf8ad3e0efef4a3c946d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "md5": "935cafa7a456a069006b07d5321ac379"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "md5": "01322563a34c5a402f3ddbcb7c58c90a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "md5": "c4542448fc4ff1e461feaa75ad9fa8c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_quit.h"
+          },
+          "hashes": {
+            "md5": "2a67a02e57463b876d975b3e6bd71e0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "md5": "de2e73748f374cba1be79b48672de001"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_touch.h"
+          },
+          "hashes": {
+            "md5": "d1940941cf6b4786393bbdf30d2437c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "md5": "eb7afec496bb4b44fd1668eada2ecfa2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "md5": "c19c10bdf7df4e9e71dfc0753d8727e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_hints.h"
+          },
+          "hashes": {
+            "md5": "d5df373f7c59aafcd92f82e6285055bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "md5": "22fdd8e014747dd84e3c4f1e234d0e8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_log.h"
+          },
+          "hashes": {
+            "md5": "6be8a305116a54b16ef85c11d44d04f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "md5": "eeced17a9a9441fe6060c74e7cdf5966"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_metal.h"
+          },
+          "hashes": {
+            "md5": "ad77bf11c0082c2ad6f586b7a4cc6b12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_power.h"
+          },
+          "hashes": {
+            "md5": "e1d4b030e6555a5bf01153a17b09cf7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_render.h"
+          },
+          "hashes": {
+            "md5": "b808ad1c19fb174f8f9f5f9c3ba17066"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_shape.h"
+          },
+          "hashes": {
+            "md5": "4d21f6ac2a0ac222a0664dcd7c63310b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_system.h"
+          },
+          "hashes": {
+            "md5": "02b12614fb0a6ddd4fd6c9551c9e6d45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_timer.h"
+          },
+          "hashes": {
+            "md5": "e7535fcf28b07e2b032d400688d3be8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_version.h"
+          },
+          "hashes": {
+            "md5": "9342aba7f4f3ebccbadad8d7c017f6b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_locale.h"
+          },
+          "hashes": {
+            "md5": "a525a0ad22f62f52d931ab556af68744"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_misc.h"
+          },
+          "hashes": {
+            "md5": "f7636158cc2942c3a89f4134503a3593"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/other/libraries/sdl2_image-devel-2.0.5-vc/sdl2_image-2.0.5/include/sdl_image.h"
+          },
+          "hashes": {
+            "md5": "3ad4ced493bf6ee900936905e0ebd218"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/space_partition_player_bullets_system.h"
+          },
+          "hashes": {
+            "md5": "a8a83450684c1844f58704eda486fcc6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/manager.h"
+          },
+          "hashes": {
+            "md5": "5c3dea581f661bd40506c6ab37e48f17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/entity.h"
+          },
+          "hashes": {
+            "md5": "2dffd12d511b4c7165c6926c967068c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/component_array.h"
+          },
+          "hashes": {
+            "md5": "a44ae49314d86f467d6887af65ec37a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/signature.h"
+          },
+          "hashes": {
+            "md5": "18e9c55de87d29e9aab4094d999f17c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/archetype.h"
+          },
+          "hashes": {
+            "md5": "03aef7f01fc6cec16fbd49b7ae43dc73"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/record.h"
+          },
+          "hashes": {
+            "md5": "d9e148963179f92629d36ef156c1ecfc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/component_defs.h"
+          },
+          "hashes": {
+            "md5": "e1b53bec4026f698f3de0ba6bec56292"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/player_attack_system.h"
+          },
+          "hashes": {
+            "md5": "42ef0bd8e142fd9d2efa52d5daacb864"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/space_hash.h"
+          },
+          "hashes": {
+            "md5": "d5ba093b9eade7a6c2804f48a682b1cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/space_partition_enemy_bullets_system.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "397ec7216ab992f1b06b0714c5b0fcf8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/space_partition_enemy_bullets_system.h"
+          },
+          "hashes": {
+            "md5": "f0271cd80d075d7946106fd684e55620"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/enemy_attack_system.h"
+          },
+          "hashes": {
+            "md5": "95577397ec3e797f4bd4f34e1fe612ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/space_hash.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a59e6a6066dbd9a76df99d5ad3a9a302"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/sdlwindow.h"
+          },
+          "hashes": {
+            "md5": "c8a6ac32987b711662c1114cf85a06cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/spaceshooter3.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "198dd609ce97248555f8e45ac4a765a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/move_system.h"
+          },
+          "hashes": {
+            "md5": "1d7c7a9292e16386514b0e7c1fdaa27f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/spawn_system.h"
+          },
+          "hashes": {
+            "md5": "9d814f7929230d27160af18e1149f053"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/enemy_movement_system.h"
+          },
+          "hashes": {
+            "md5": "3642904acd5bb6263b7fb6c4405c0f98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/despawn_enemy_system.h"
+          },
+          "hashes": {
+            "md5": "25dfc9861cbf1124302d2c5c0a4cf869"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/player_movement_system.h"
+          },
+          "hashes": {
+            "md5": "10d3d3e46846e65e6f0dcd1c59280d8e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/player_collision_system.h"
+          },
+          "hashes": {
+            "md5": "e05433db8fa09f552758f721d478fe13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/enemy_collision_system.h"
+          },
+          "hashes": {
+            "md5": "5e4c70d8100d5af2bffb3a83bd67d9a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/draw.h"
+          },
+          "hashes": {
+            "md5": "aede54606e62d30093634c5e0157d65c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/game_data.h"
+          },
+          "hashes": {
+            "md5": "ab678478f173f9eb9c415246cf5fc5df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/signature.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "e816a855c53f7bf9089e5c11b4223c60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/hashing.h"
+          },
+          "hashes": {
+            "md5": "7f24e3956bd692af8b64234b751f8396"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/sdlwindow.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "ad5fd817587e267508202946091a9fdf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/record.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "adf9185744ee21e1c076b3242c29999f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/player_movement_system.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "04ecf058214a61376171281994a2c9e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/player_collision_system.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "227f81bd29cf804de662b9f8ab8df50c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/player_attack_system.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "3d5a325d0598a83a6ab965fca309b726"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/manager.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8b16fc0cda1eddbcbbefb3fcfd0beb37"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/move_system.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a0f52b6e00d3e2356465dc9bd432b769"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/entity.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "ad2b56459ce55f44b5cff93fcfa99aef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/enemy_movement_system.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "35214cf242433275330cf108584e7640"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/colin/source/repos/spaceshooter3/spaceshooter3/enemy_collision_system.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a353af34a07f7c9df057ff6300ad1560"
+          }
+        }
+      ]
+    }
+  ]
+}
